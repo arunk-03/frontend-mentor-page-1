@@ -1,0 +1,156 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.box {
+    width: 900px;
+    height: 1200px;
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    color: black;
+    border-radius: 10%;
+    box-shadow: 20px 10px 10px;
+    border: 3px solid black;
+}
+
+.box .small-rectangle{
+    width: 90%;
+    height: 40%;
+    /* background-color: hsl(47, 81%, 59%); */
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    color: white;
+    top: 0;
+    border-radius: 1em;
+    margin-top: 5%;
+    background-image: url('https://api.otakoyi.software/uploads/content/2020/10/06/1280/customer-engagement-platform-219x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+}
+
+.box button {
+    position: absolute;
+    top: 580px; 
+    left: 0; 
+    width: 30%;
+    height: 8%;
+    border-radius: 30px;
+    font-size: 50px;
+    margin-left: 5%;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  hsl(47, 81%, 59%);
+    
+  }
+
+.box p{
+    position: absolute;
+    top: 640px; 
+    left: 0;
+    padding-left: 5%;
+    padding-top: 6%;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+.heading{
+    position: absolute;
+    top: 810px; 
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+
+}
+
+.content{
+    position: absolute;
+    width: 90%;
+    top: 880px; 
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.name-image img{
+    
+    position: absolute;
+    top: 1050px;
+    left: 0;
+    margin-left: 10%;
+    /* border-radius: 50%; */
+    width: 10%;
+    height: 10%;
+    overflow: hidden;
+    clip-path: circle();
+    
+}
+
+.name{
+    position: absolute;
+    top: 1090px;
+    left: 0;
+    margin-left: 23%;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.small-rectangle img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box:hover{
+    box-shadow: 25px 15px 15px;
+    transition: 200ms;
+
+}
+
+button:hover{
+    background-color: hsl(47, 87%, 52%);
+    box-shadow: 5px 5px 5px 0.4px  rgba(0,0,0,0.4);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.name-image:hover{
+    cursor: pointer;
+}
+
+/* @media (max-width: 1000px) {
+    .box{
+        width: 70%;
+        height: 70%;
+        font-size: 20px;
+    }
+
+} */
+
+/* @media (max-width: 1000px) {
+    body {
+      display: none;
+    }
+  } */
